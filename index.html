@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Ashton's Daily Journal</title>
+</head>
+<body>
+
+    <header>
+        <h1></h1>
+    </header>
+
+    <main id="container">
+        <article class="flexContainer">
+            <section class="entryFormSection">
+                <h2>Daily Journal</h2>
+                <form action="" class="entryForm">
+                    <fieldset>
+                        <label for="entryDate">Date</label>
+                        <input type="date" name="entryDate" class="entryForm__date">
+                    </fieldset>
+                    <fieldset>
+                        <label for="dateOfEntry">Date of Entry</label>
+                        <input type="date" name="dateOfEntry" class="entryForm__dateOfEntry">
+                    </fieldset>
+                    <fieldset>
+                        <label for="conceptsCovered">Concepts Covered</label>
+                        <input type="text" name="conceptsCovered" class="entryForm__conceptsCovered">
+                    </fieldset>
+                    <fieldset>
+                        <label for="journalEntry">Journal Entry</label>
+                        <textarea name="journalEntry" id="journalEntry" cols="30" rows="8"></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <label for="mood">Mood for the Day</label>
+                        <select name="mood" id="mood">
+                            <option value="none" selected></option>
+                            <option value="amazing">Amazing!</option>
+                            <option value="great">Great</option>
+                            <option value="ok">Just Ok</option>
+                            <option value="meh">Meh</option>
+                            <option value="horrible">Horrible</option>
+                            <option value="sad">Just Really Sad</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <input type="submit" value="Record Journal Entry">
+                    </fieldset>
+                </form>
+                <article id="entries"></article> <!--Will be needed later-->
+            </section>
+
+            <section class="journalEntries">
+                <div class="entries">
+                    <ul class="entries__list">
+
+                    </ul>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <div></div>
+    </footer>
+    
+</body>
+</html>
