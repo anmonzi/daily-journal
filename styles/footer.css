@@ -1,0 +1,17 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #222;
+    color: #DDDCD9;
+}
+
+.footer__item {
+    flex-basis: 20%;
+    text-align: center;
+}
+
+.footer__link {
+    color: #DDDCD9;
+}

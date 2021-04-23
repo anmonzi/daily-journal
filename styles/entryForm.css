@@ -1,0 +1,35 @@
+.entryFormSection {
+    width: 25rem;
+}
+
+.entryForm {
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 50%);
+    border: none;
+}
+
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+fieldset input {
+    font-family: 'Roboto', sans-serif;
+}
+
+.entryForm__dateOfEntry {
+    max-width: 10rem;
+}
+
+.moodInput {
+    max-width: 10rem;
+}
+
+.submitButton {
+    margin-left: 6rem;
+    max-width: 10rem;
+}
+}
