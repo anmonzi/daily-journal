@@ -1,9 +1,12 @@
-import { DailyJournal } from "./DailyJournal.js"
+import { DailyJournal, JournalForm } from "./DailyJournal.js"
 
-const container = document.querySelector("#entries")
+const containerOne = document.querySelector("#form")
+const containerTwo = document.querySelector("#entries")
+
 
 const render = () => {
-    container.innerHTML = DailyJournal()
+    containerOne.innerHTML = JournalForm()
+    containerTwo.innerHTML = DailyJournal()
 }
 
 render()
