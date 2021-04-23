@@ -1,4 +1,60 @@
+body {
+    background-color: #DDDCD9;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+    color: #EA3C2E;
+    font-family: 'Antonio', sans-serif;
+}
+
+h1 {
+    font-size: 6rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.flexContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.entryFormSection {
+    max-width: 20rem;
+}
+
+.entryForm {
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
 fieldset {
     display: flex;
     flex-direction: column;
+}
+
+fieldset input {
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #222;
+    color: #DDDCD9;
+}
+
+.footer__item {
+    flex-basis: 20%;
+    text-align: center;
+}
+
+.footer__link {
+    color: #DDDCD9;
 }
