@@ -1,4 +1,4 @@
-.entryFormSection {
+.journalForm {
     width: 25rem;
 }
 
@@ -31,5 +31,4 @@ fieldset input {
 .submitButton {
     margin-left: 6rem;
     max-width: 10rem;
-}
 }
