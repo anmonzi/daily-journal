@@ -1,0 +1,15 @@
+#entries {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    background-color: #fff;
+}
+
+.entryTitle {
+    text-align: center;
+}
+
+.entry {
+    list-style-type: none;
+    border-bottom: 1px black solid;
+    padding-bottom: 2rem;
+}

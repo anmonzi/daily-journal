@@ -12,18 +12,14 @@
 <body>
 
     <header>
-        <h1>Welcome!</h1>
+        <h1>Welcome to My Online Journal</h1>
     </header>
 
     <main id="container">
         <article class="flexContainer">
-            <h2>Daily Journal</h2>
+            <h2>Let's Write Something!</h2>
             <section class="entryFormSection">
                 <form action="" class="entryForm">
-                    <fieldset>
-                        <label for="entryDate">Date</label>
-                        <input type="date" name="entryDate" class="entryForm__date">
-                    </fieldset>
                     <fieldset>
                         <label for="dateOfEntry">Date of Entry</label>
                         <input type="date" name="dateOfEntry" class="entryForm__dateOfEntry">
@@ -38,7 +34,7 @@
                     </fieldset>
                     <fieldset>
                         <label for="mood">Mood for the Day</label>
-                        <select name="mood" id="mood">
+                        <select name="mood" id="mood" class="moodInput">
                             <option value="none" selected></option>
                             <option value="amazing">Amazing!</option>
                             <option value="great">Great</option>
@@ -49,20 +45,13 @@
                         </select>
                     </fieldset>
                     <fieldset>
-                        <input type="submit" value="Record Journal Entry">
+                        <input type="submit" class="submitButton" value="Record Journal Entry">
                     </fieldset>
                 </form>
-                <article id="entries"></article> <!--Will be needed later-->
             </section>
 
-            <h2>Journal Entries</h2>
-            <section class="journalEntries">
-                <div class="entries">
-                    <ul class="entries__list">
-
-                    </ul>
-                </div>
-            </section>
+            
+            <section id="entries"></section> <!--Will be needed later-->
         </article>
     </main>
 
@@ -71,7 +60,7 @@
         <p class="footer__item">Check out my <a href="https://github.com/anmonzi" class="footer__link" target="_blank">Github</a></p>
         <p class="footer__item">Copyright 2021</p>
     </footer>
-    <script type="module" src="./scripts/main.js>
+    <script src="./scripts/main.js" type="module"></script>
 </body>
 </html>
 

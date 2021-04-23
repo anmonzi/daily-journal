@@ -1,3 +1,7 @@
+@import "./footer.css";
+@import "./entryForm.css";
+@import "./journalEntries.css";
+
 body {
     background-color: #DDDCD9;
     font-family: 'Roboto', sans-serif;
@@ -21,40 +25,4 @@ h2 {
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-
-.entryFormSection {
-    max-width: 20rem;
-}
-
-.entryForm {
-    background-color: #fff;
-    font-family: 'Roboto', sans-serif;
-}
-
-fieldset {
-    display: flex;
-    flex-direction: column;
-}
-
-fieldset input {
-    font-family: 'Roboto', sans-serif;
-}
-
-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #222;
-    color: #DDDCD9;
-}
-
-.footer__item {
-    flex-basis: 20%;
-    text-align: center;
-}
-
-.footer__link {
-    color: #DDDCD9;
 }
